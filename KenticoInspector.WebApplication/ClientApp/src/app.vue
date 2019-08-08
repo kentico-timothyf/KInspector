@@ -18,18 +18,20 @@
         <span class="mr-2">Source on Github</span>
         <v-icon>mdi-github-box</v-icon>
       </v-btn>
-      <div>Version 4.0 Alpha</div>
+      <application-version></application-version>
     </v-footer>
   </v-app>
 </template>
 
 <script>
 import TheMainToolbar from './components/the-main-toolbar'
+import ApplicationVersion from './components/application-version'
 
 export default {
   name: 'App',
   components: {
-    TheMainToolbar
+    TheMainToolbar,
+    ApplicationVersion
   },
   data () {
     return {

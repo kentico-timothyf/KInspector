@@ -7,7 +7,7 @@
     <PackageVersion />
     <AssemblyVersion />
     <FileVersion />
-    <InformationalVersion />
+    <InformationalVersion>0.0.0+dev</InformationalVersion>
   </PropertyGroup>
 
   <ItemGroup>

@@ -48,5 +48,16 @@ export default {
     })
   },
 
+  getAppVersion () {
+    return new Promise((resolve)=>{
+      axios.get("/api/appinformation/appversion")
+      .then(v => v.data)
+      .then(result => {
+        resolve(result)
+      })
+    })
+  },
+
   reportService
+  
 }
